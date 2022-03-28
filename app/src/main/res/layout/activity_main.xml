@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8F6F7"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <androidx.appcompat.widget.Toolbar
@@ -15,33 +15,31 @@
         android:background="@color/white">
 
         <RelativeLayout
-            android:layout_width="wrap_content"
+            android:layout_width="630dp"
             android:layout_height="match_parent"
             android:gravity="center_vertical">
 
             <TextView
-                android:layout_width="130dp"
+                android:layout_width="230dp"
                 android:layout_height="wrap_content"
                 android:text="News Feed"
-                android:textColor="#03A9FA"
-                android:textSize="20dp"
+                android:textColor="#107DE8"
+                android:textSize="25dp"
                 android:textStyle="bold"></TextView>
         </RelativeLayout>
-
     </androidx.appcompat.widget.Toolbar>
-
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/included"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/toolbar"
         android:layout_marginTop="1dp"
-        android:backgroundTint="@color/white"
-        app:tabIndicatorColor="#03A9FA"
+        android:backgroundTint="#ADEDF3"
+        app:tabIndicatorColor="#096EED"
         app:tabIndicatorHeight="3.5dp"
         app:tabMode="scrollable"
-        app:tabSelectedTextColor="#03A9FA"
-        app:tabTextColor="#618C8F">
+        app:tabSelectedTextColor="#1012F1"
+        app:tabTextColor="#369AA3">
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/home"
